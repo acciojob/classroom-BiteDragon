@@ -4,6 +4,7 @@ public class Student {
 
     private String name;
     private int age;
+    private double averageScore;
 
 
     public Student(String name, int age,double averageScore) {
@@ -35,7 +36,6 @@ public class Student {
         this.age = age;
     }
 
-    private double averageScore;
 
     public Student(){
 
